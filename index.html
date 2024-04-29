@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style01.css">
+    <title>Registro de Usuarios</title>
+</head>
+<body>
+    <h1>Registro de Ususrio</h1>
+    <form id="registarForm">  <!-- CAMBIAR ESTO -->
+        <input type="text" id="name" placeholder="Nombre" required><br>
+        <input type="email" id="email" placeholder="Correo" required><br>
+        <input type="text" id="cellphone" placeholder="Celular" required><br>
+        <input type="password" id="passwd" placeholder="Contraseña" required><br>
+        <button type="button" onclick="registerUser()">Registar</button>
+    </form>
+
+    <h1>Actualizar Usuario</h1>
+    <form id="actualizazrForm"> <!-- CAMBIAR ESTO -->
+        <input type="text" id="updateName" placeholder="Nuevo Nombre" required><br>
+        <input type="email" id="updateEmail" placeholder="Nuevo Correo" required><br>
+        <input type="text" id="updateCellphone" placeholder="Nuevo Celular" required><br>
+        <button type="button" onclick="updateUser()">Actualizar</button>
+    </form>  
+    <script src="JS/index.js"></script>
+</body>
+</html>

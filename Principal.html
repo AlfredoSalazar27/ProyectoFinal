@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/69644bf675.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styles/style04.css">
+    <title>Página Principal</title>
+</head>
+<body>
+    <nav id="menuBar">
+        <ul>
+            <li><a href="Principal.html">Inicio</a></li>
+            <li><a href="index.html">Iniciar Sesión</a></li>
+            <li><a href="index.html">Registrarse</a></li>
+            <li><a href="job.html">Registro de Oferta Laboral</a></li>
+            <li><a href="empresa.html">Registro de Empresas</a></li>
+            <li><a href="certificacion.html">Certificados</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav> 
+    <div id="ribbon">
+         <div>
+            <h1>Bienvenidos a WebSite Service</h1>
+        </div>
+        <img src="imgs/211013_buscartrabajointernet.jpg" alt="Cinta" style="width: 100%;" height="150">
+        <marquee> 
+            <span>OFERTAS DE TRABAJOS TODOS LOS DÍAS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>AQUI ENCUNTRAS TU MEJOR OPCIÓN</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span>TRABAJOS CON O SIN EXPERIENCIA </span>
+        </marquee>
+    </div>
+    <header id="inicio">
+        <div class="login-form-container">
+            <form class="login-form" action="#" method="POST">
+                <h2>Iniciar Sesión</h2>
+                <input type="text" name="username" placeholder="Nombre de Usuario">
+                <input type="password" name="password" placeholder="Contraseña">
+                <div class="radio-group">
+                    <input type="radio" id="user" name="role" value="user" checked>
+                    <label for="user">Usuario</label>
+                    <input type="radio" id="company" name="role" value="company">
+                    <label for="company">Empresa</label>
+                </div>
+                <button type="submit">Iniciar Sesión</button>
+                <div style="margin-top: 15px;"> <!-- Agregamos un margen superior para separar los botones -->
+                    <a id="registrationLink" href="#">Registrarse</a>
+                </div>
+            </form>
+        </div>
+             <div id="header-carousel">
+                <div class="slide"><img src="imgs/UTN.jpg" alt="Imagen 1" ></div>
+                <div class="slide"><img src="imgs/UNED.png" alt="Imagen 2"></div>
+                <div class="slide"><img src="imgs/UCR.jpg" alt="Imagen 3" ></div>
+                <div class="slide"><img src="imgs/TEC.jpg" alt="Imagen 4"></div>
+            </div>
+    </header>
+
+    <section id="sobre-nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una empresa que ofrece este tipo de herramientas para que las personas se puedan registrar y poder optar por un puesto de trabajo
+             y de igual forma para las empresas que se puedan registrar y puedan registrar sus plazas vacantes..</p>
+    </section>
+    <footer id="contacto">
+        <h2>Contacto</h2>
+        <p>Tel:(506)2664-0987.</p>
+        <i class="fa-brands fa-square-facebook"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-whatsapp"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </footer>
+
+    <script src="JS/trasnsicion.js"></script>
+    <div id="message"></div>
+
+    <script src="JS/index.js">
+        <div id="message"></div>
+    </script>
+</body>
+</html>
+
