@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style01.css">
+    <title>Agregar Certificacion</title>
+</head>
+<body>
+    <h1>Agregar Certificacion</h1>
+    <form id="certificacionForm">
+        <input type="text" id="description" placeholder="Descripccion de Certificacion" required><br>
+        <input type="text" id="category" placeholder="Categoria de Certificacion" required><br>
+        <input type="text" id="studycenter" placeholder="Centro de Estudio" required><br>
+        <input type="number" id="year" placeholder="Año de Certificacion" required><br>
+        <button type="button" onclick="addCertification()">Agregar Certificacion</button>
+    </form>
+    <h1>Detalles de Certificacion</h1>
+    <ul id="certificacionList"></ul> 
+    <button type="button" onclick="showCertificationId()">Mostrar ID de Certificacion</button>
+    <h1>Actualizar Certificacion</h1>
+    <form id="ActualizarCertificacionForm">
+        <input type="text" id="updateDescription" placeholder="Nueva Descripcion de Certificacion" required><br>
+        <input type="text" id="updateCategory" placeholder="Categoria de Certificacion" required><br>
+        <input type="text" id="updateStudyCenter" placeholder="Centro de Estudio" required><br>
+        <input type="number" id="updateYear" placeholder="Año de Certificacion" required><br>
+        <button type="button" onclick="updateCertification()">Actulizar Certificacion</button>
+        <button type="button" onclick="deleteCertification()">Eliminar Certificacion</button>
+
+    </form>
+    
+    <script src="JS/certificacion.js"></script>
+</body>
+</html>

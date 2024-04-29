@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom right, #A9C9FF, #FFBBEC);
+}
+ 
+h1 {
+    color: #333;
+}
+ 
+form {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+}
+ 
+form input[type="text"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+ 
+form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 
+form button:hover {
+    background-color: #4cae4c;
+}
+ 
+#certificacionList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ 
+#certificacionList li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    padding: 12px;
+    color: #333;
+}
